@@ -45,7 +45,7 @@ def main():
         examples=[["I love this product! It's amazing."], ["This is the worst experience I've ever had."]]  # 示例输入
     )
     # 启动界面
-    interface.launch()
+    interface.launch(share=True)
 
 
 if __name__ == "__main__":
